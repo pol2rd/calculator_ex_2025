@@ -69,6 +69,6 @@ function calculate() {
 }
 
 function clearScreen() {
-    screen.innerHTML = "&nbsp;";
+    screen.innerHTML = "";
     exrcise = "";
 }

@@ -45,6 +45,13 @@ body {
     text-align: right;
     margin-bottom: 10px;
     overflow-x: auto;
+    white-space: pre-line;
+}
+
+#display::before {
+    white-space: pre;
+    content: " ";
+    visibility: hidden;
 }
 
 .buttons {
